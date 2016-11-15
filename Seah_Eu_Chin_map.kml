@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Seah Eu Chin map</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<name>Chulia Street</name>
+				<description><![CDATA[Early business address (then known as Kling Street)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.84996060000003,1.2852224,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Circular Road</name>
+				<description><![CDATA[Early business address]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.84879490000004,1.2882187,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11 N Boat Quay</name>
+				<description><![CDATA[Seah family residence (exact location may be different)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.84863270000005,1.2900025,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tie Swah Ting Cemetery
+</name>
+				<description><![CDATA[Today's Ngee Ann City, on land still owned by the Ngee Ann Kongsi. Seah Eu Chin was one of the founders of the Ngee Ann Kongsi and a trustee of the cemetery.]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.83456799999999,1.3025572,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Yueh Hai Ching Temple</name>
+				<description><![CDATA[The oldest Teochew temple in Singapore.]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.84925139999996,1.2846717,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grave Hill</name>
+				<description><![CDATA[Formerly part of the plantation owned by Seah Eu Chin. His grave is located on this hill.]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.83888890000003,1.3361111,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seah Eu Chin's Tomb</name>
+				<description><![CDATA[Rediscovered in 2012]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.83874309999999,1.3354512,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ellenborough Market</name>
+				<description><![CDATA[A shelter for paupers was built near this swamp by Seah Eu Chin in the 1840s]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.84845970000002,1.2870302,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pearl's Hill
+</name>
+				<description><![CDATA[Location of the first Tan Tock Seng hospital building]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.83916670000008,1.2844444,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bendemeer House</name>
+				<description><![CDATA[Formerly the house of Whampoa (Hoo Ah Kay), later bought by Seah Eu Chin's son, Seah Liang Seah, who renamed it Bendemeer.]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.8615704,1.3174708,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dalhousie Obelisk</name>
+				<description><![CDATA[Erected to commemorate the visit of the Governor General of India, the Marquis of Dalhousie, to Singapore in 1850. Seah Eu Chin headed the deputation that received him.]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.85223100000007,1.2874122,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lot 217
+</name>
+				<description><![CDATA[Location land lot 217 purchased by Seah Eu Chin from Said Ali bin Mohammad Aljunied, which later became subject of dispute with government over encroachment.]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.8505518,1.2890038,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thian Hock Keng Temple</name>
+				<description><![CDATA[The Chongwenge school was based in this Hokkien temple; Seah Eu Chin donated to the foundation of this school]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.84747670000002,1.2810871,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seah Street</name>
+				<description><![CDATA[Named after the Seah family]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.85517690000006,1.2956342,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Peck Seah Street</name>
+				<description><![CDATA[Named for Seah Eu Chin's youngest son, who owned property in the area]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.8448955,1.2773235,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Liang Seah Street</name>
+				<description><![CDATA[Named for Seah Eu Chin's second son, who was an unofficial member of the Legislative Council]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>103.8564146,1.2981121,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

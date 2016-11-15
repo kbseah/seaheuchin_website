@@ -1,0 +1,421 @@
+/* Basic formatting */
+
+body {
+	background-color: lightblue;
+}
+
+.main {
+	/* Page body */
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	padding: 25px 50px;
+	background-color: lightyellow;
+}
+
+p {
+	font-family: Georgia,Times,serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
+	font-size: 1.2em;
+}
+
+.comment {
+	/* For commentary in primary sources */
+	font-style:italic;
+	color:grey;
+}
+
+ul.famtree {
+	/*List style for family tree*/
+	list-style-type:none;
+}
+
+.ftm {
+	/*for male names in family tree*/
+	font-variant: small-caps;
+	color:blue;
+}
+
+.ftf {
+	/*For female names in Family tree*/
+	font-variant: small-caps;
+	color:red;
+}
+
+.smaller {
+	font-size:80%;
+}
+
+p.back {
+	/* Back to homepage */
+	text-align:center;
+	font-style:italic;
+	font-size: 1em;
+}
+
+p.center {
+	text-align:center;
+}
+
+a:link,a:visited {
+	/*normal links*/
+	color:darkblue;
+	text-decoration:none;
+}
+
+a:hover {
+	color:white;
+	background-color:darkblue;
+	text-decoration:none;
+}
+
+
+a.resource {
+	/* Links to resource pages */
+	display:block;
+	width:400px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:blue;
+	color:white;
+	text-decoration:none;
+	padding:5px 10px;
+	border-radius:5px;
+}
+
+a.resource:hover {
+	/* Links to resource pages */
+	background-color:olive;
+}
+
+h1 {
+	color: navy;
+	font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+	font-size: 2.8em;
+	text-align: center;
+}
+
+h2 {
+	color: navy;
+	font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+	font-size: 1.8em;
+	text-align: center;
+}
+
+h3 {
+	color:navy;
+	font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+	font-size: 1.4em;
+	text-align: center;
+}
+
+h4 {
+	color:black;
+	font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+	font-style:italic;
+	font-size:1.2em;
+	text-align: left;
+}
+
+blockquote {
+	display: block;
+	font-style: italic;
+}
+
+ul {
+	font-size:1.2em;
+	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
+}
+
+ul ul {
+	font-size:100%;
+}
+
+ol {
+	font-size:1.2em;
+	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
+}
+
+figure.full {
+	width: 500px;
+	display:block;
+	margin:auto;
+	border-radius:10px;
+	border: 1px solid gray;
+	box-shadow: 2px 2px gray;
+	padding:10px 20px;
+}
+
+figure.full img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+figure.full figcaption {
+	color: grey;
+	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
+	font-style:italic;
+	text-align:center;
+	font-size:1em;
+	padding:5px;
+}
+
+figure.float_right {
+	float:right;
+	width: 275px;
+	display:inline;
+	margin:auto;
+	padding:10px 20px;
+}
+
+figure.float_right img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+figure.float_right figcaption {
+	color:grey;
+	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
+	font-style:italic;
+	text-align:center;
+	font-size:0.9em;
+	padding:5px;
+}
+
+/* Navigation bar */
+
+.navbar {
+	width:600px;
+	height:100px;
+	top:0;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0px 50px;
+	left:0;
+	right:0;
+	position:fixed;
+	background:navy;
+}
+
+
+.navbartitle {
+    font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+    font-size:3em;
+    width:200px;
+    height:100px;
+    padding:20px 0px;
+    top:0px;
+    right:0px;
+    float:right;
+    text-align:center;
+    display:block;
+    color:lightyellow;
+    z-index: 1;
+}
+
+div.navbar ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    color:white;
+    position:fixed;
+    width:600px;
+    height:100px;
+}
+
+div.navbar li {
+    font-family: Helvetica, Arial, sans-serif;
+    float:left;
+    display:block;
+    text-align:center;
+    padding: 30px 10px;
+    border-radius:10px;
+    height:100px;
+    color:white;
+    text-decoration:none;
+}
+
+div.navbar li a:link {
+	color:white;
+	text-decoration:none;
+}
+
+div.navbar li a:hover {
+	color:white;
+	background-color:blue;
+	text-decoration:none;
+}
+
+div.navbar li.current a {
+	color:white;
+	background-color:blue;
+	text-decoration:none;
+}
+
+div.navbar li a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+div.navbar li:hover:not(.active) {
+    background-color:blue;
+    border-radius:10px;
+}
+
+div.navbar li.current {
+    background-color:blue;
+    border-radius:10px;
+}
+
+/* Info boxes in the text */
+
+h3.boxhead {
+	color: darkgreen;
+	font-family: Helvetica,Arial, sans-serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
+	font-size: 1.3em;
+	text-align:center;
+}
+
+h3.boxheadzh {
+	color: darkgreen;
+	font-family: Helvetica,Arial, sans-serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
+	font-size: 1.3em;
+	text-align:center;
+}
+
+div.box {
+	width: 500px;
+	border: 1px solid gray;
+	margin: auto;
+	padding: 10px 15px;
+	background-color: white;
+	border-radius:10px;
+	box-shadow: 2px 2px gray;
+	overflow:auto;
+}
+
+div.box p {
+	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
+	color: black;
+}
+
+/* Footnotes as tooltip text */
+.footnote {
+	border-bottom: 1px dotted black;
+	font-size: 70%;
+	vertical-align: super;
+	color:white;
+	background-color:grey;
+	padding:1px;
+}
+
+.footnote .footnotetext {
+	visibility: hidden;
+	width: 200px;
+	background-color: grey;
+	color: white;
+	text-align: justify;
+	padding: 10px 15px;
+	border-radius: 8px;
+	position: absolute;
+	z-index: 1;
+}
+
+.footnote:hover .footnotetext {
+	visibility: visible;
+}
+
+/* Toggle Chinese text
+   Based on this tutorial:  http://www.cssportal.com/css3-preview/showing-and-hiding-content-with-pure-css3.php
+*/
+
+.zh {
+	display: none;
+	/* by default hidden */
+}
+
+.boxheadzh {
+	display: none;
+	/* by default hidden */
+}
+
+:checked ~ 	.zh {
+	display: block;
+	/* display .zh class when checkbox clicked */
+}
+
+:checked ~ 	div.box p.zh {
+	display: block;
+	/* display .zh class when checkbox clicked */
+}
+
+:checked ~ 	div.box h3.boxheadzh {
+	display: block;
+	/* display .zh class when checkbox clicked */
+}
+
+.hide {
+	display: none;
+	/* on pageload hidden */
+	font-size: 80%;
+	font-family: sans-serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
+	color:white;
+	float:left;
+	background:grey;
+	padding: 5px;
+	text-decoration:none;
+}
+
+.show {
+	display: inline;
+	/* on pageload shown */
+	font-size: 80%;
+	font-family: sans-serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
+	color:white;
+	float:left;
+	background:grey;
+	padding: 5px;
+	text-decoration:none;
+}
+
+.show:focus + .hide {
+	display: inline;
+	/* display when "show" button clicked */
+}
+
+.show:focus {
+	display: none;
+	/* hide "show" button after it has been clicked */
+}
+
+.show:focus ~ .zh {
+	display: block;
+	/* display .zh class when "show" button clicked */
+}
+
+
+
+/* Endmatter (Copyright statement) */
+
+div.endmatter {
+
+}
+
+div.endmatter p {
+	font-size: 80%;
+	font-family: serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
+	font-style: italic;
+	color:grey;
+	text-align:center;
+}
+
+/* Bibliography */
+
+ul.biblio {
+	font-size:1em;
+	font-family:serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
+}

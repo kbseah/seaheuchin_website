@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"> 
+<head>
+<link rel="stylesheet" type="text/css" href="seaheuchin_stylesheet.css">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+	google.charts.load('current', {'packages':['timeline']});
+	google.charts.setOnLoadCallback(drawChart);
+	function drawChart() {
+		var container = document.getElementById('timeline');
+		var chart = new google.visualization.Timeline(container);
+		var dataTable = new google.visualization.DataTable();
+		
+		dataTable.addColumn({ type: 'string', id: 'Timeline' });
+		dataTable.addColumn({ type: 'string', id: 'Bar label' });
+		dataTable.addColumn({ type: 'string', role: 'tooltip' });
+		dataTable.addColumn({ type: 'date', id: 'Start' });
+		dataTable.addColumn({ type: 'date', id: 'End' });
+		dataTable.addRows([
+			[ 'Seah Eu Chin life events', 'Born', 'Born in Guek-po Village, Theng-hai subprefecture in China (30 August 1805)', new Date(1805, 7, 30), new Date(1805, 7, 30) ],
+			[ 'Seah Eu Chin life events', 'Arrival in Singapore', 'Arrival in Singapore (1823)', new Date(1823, 0, 1), new Date(1823, 11, 31) ],
+			[ 'Seah Eu Chin business', 'Bought land', 'Acquired land from upper River Valley Road to Irwell Bank, Bukit Timah, Thomson Roads for gambier planting', new Date(1835, 0, 1), new Date(1835, 11, 31) ],
+			[ 'Seah Eu Chin business', 'Chamber of Commerce', 'Member of Singapore Chamber of Commerce', new Date(1840, 0, 1), new Date(1840, 11, 31) ],
+			[ 'Seah Eu Chin community service', 'Grand Jury service', 'Service on various Grand Juries', new Date(1851, 0, 1), new Date(1867, 11, 31) ],
+			[ 'Seah Eu Chin community service', 'Tan Tock Seng Hospital committee', 'Member and sometime Treasurer of the Tan Tock Seng Hospital management committee (1851-1871)', new Date(1851, 0, 1), new Date(1871, 11, 31) ],
+			[ 'Seah Eu Chin community service', 'Dalhousie Visit', 'Headed deputation for the visit of Lord Dalhousie to Singapore in 1850', new Date(1850, 0, 1), new Date(1850, 11, 31) ],
+			[ 'Singapore history', 'Hokkien-Teochew Riots', 'Violent riots between Hokkiens and Teochews in Singapore (1854)', new Date(1854, 0, 1), new Date(1854, 11, 31) ],
+			[ 'Seah Eu Chin life events', 'Naturalisation', 'Granted certificate of naturalisation as a British subject (29 December 1853)', new Date(1853, 11, 29), new Date(1853, 11, 29) ],
+			[ 'Seah Eu Chin community service', 'JP', 'Appointed as Justice of the Peace (13 September 1867)', new Date(1867, 08, 13), new Date(1867, 08, 13) ],
+			[ 'Seah Eu Chin life events', 'Marriage', 'Marriage to the eldest daughter of Tan Ah Hun (1837 or 1838)', new Date(1837, 0, 1), new Date(1837, 11, 31) ],
+			[ 'Seah Eu Chin life events', 'Remarriage', 'Remarriage to the second daughter of Tan Ah Hun, after the death of her elder sister (1838 or 1839)', new Date(1839, 0, 1), new Date(1839, 11, 31) ],
+			[ 'Seah Eu Chin life events', 'Retirement', 'Retired to scholarly pursuits (1864)', new Date(1864, 0, 1), new Date(1864, 0, 1) ],
+			[ 'Seah Eu Chin community service', 'Hon magistrate', 'Made an honorary magistrate along with four other Chinese (1872)', new Date(1872, 0, 1), new Date(1872, 11, 31) ],
+			[ 'Seah Eu Chin community service', 'Tai Shan Ting trustee', 'Made a trustee of the Tai Shan Ting cemetery (1845)', new Date(1845, 08, 1), new Date(1845, 08, 31) ],
+			[ 'Seah Eu Chin community service', 'Ngee Ann Kun', 'Founded Ngee Ann Kun, forerunner to the Ngee Ann Kongsi (1830)', new Date(1830, 0, 1), new Date(1830, 11, 31) ],
+			[ 'Seah Eu Chin community service', 'Ngee Ann Kongsi', 'Official registration of the Ngee Ann Kongsi (1845)', new Date(1845, 0, 1), new Date(1845, 11, 31) ],
+			[ 'Seah Eu Chin business', 'House-building', 'Built houses at the end of the Bridge (1832-1834)', new Date(1832, 0, 1), new Date(1834, 11, 31) ],
+			[ 'Seah Eu Chin life events', 'Died', 'Passes away at home at 8 am on 23 September 1883', new Date(1883, 08, 23), new Date(1883, 08, 23) ],
+			[ 'Singapore history', 'Raffles', 'Raffles claims Singapore for the British (28 January 1819)', new Date(1819, 0, 28), new Date(1819, 0, 28) ],
+			[ 'Singapore history', 'EIC', 'Administered by the British East India Company (1826-1867)', new Date(1826, 0, 1), new Date(1867, 2, 31) ],
+			[ 'Singapore history', 'Crown Colony', 'Administered as a Crown Colony from London (1 April 1867 - 1942)', new Date(1867, 3, 1), new Date(1901, 0, 22) ],
+			[ 'Singapore history', 'Abu Bakar', 'Abu Bakar succeeds his father as Temenggong of Johor (2 February 1862), later changes title to Maharaja, then Sultan', new Date(1862, 1, 2), new Date(1862, 1, 2) ],
+			[ 'Singapore history', 'Chinese Protectorate', 'Establishment of the Chinese Protectorate with William Pickering as Protector (1877)', new Date(1877, 0, 1), new Date(1901, 0, 22) ],
+			[ 'World history', 'Jiaqing reign (China)', 'Reign of the Jiaqing emperor of the Qing Dynasty in China (1796-1820)', new Date(1796, 1, 9), new Date(1820, 8, 2) ],
+			[ 'World history', 'Indian Rebellion', 'Indian Rebellion (also known as the Sepoy Mutiny) against the rule of the British East India Company (1 May 1857-31 June 1858)', new Date(1857, 04, 1), new Date(1858, 05, 31) ],
+			[ 'World history', 'First Opium War', 'First Opium War between Britain and China (1839-1842)', new Date(1839, 0, 1), new Date(1842, 11, 31) ],
+			[ 'World history', 'Taiping Rebellion', 'Taiping Rebellion in China (1851-1864)', new Date(1850, 11, 1), new Date(1864, 7, 31) ],
+			[ 'World history', 'Amoy Rebellion', 'Amoy Rebellion in China - many rebels fled to Singapore (1853)', new Date(1853, 0, 1), new Date(1853, 11, 31) ],
+			[ 'World history', 'Napoleonic Wars', 'Napoleonic Wars in Europe (1803-1815)', new Date(1803, 4, 18), new Date(1815, 10, 20) ],
+			[ 'World history', 'US Civil War', 'American Civil War between the Union and Confederacy (1861-1865)', new Date(1861, 0, 1), new Date(1865,11,31) ],
+			[ 'World history', 'Krakatoa', 'Eruption of Krakatoa volcano (26-27 August 1883)', new Date(1883,07,26), new Date(1883,07,27) ],
+			[ 'World history', 'Second Opium War', 'Second Opium War between China and Britain (1857-1860)', new Date(1857, 0, 1), new Date(1860, 11, 31) ],
+			[ 'World history', 'Anglo-Dutch Treaty', 'British and Dutch sign the Anglo-Dutch Treaty, dividing up their control of maritime Southeast Asia (17 March 1824)', new Date(1824, 02, 17), new Date(1824, 02, 17) ],
+			[ 'World history', 'Suez Canal', 'Suez Canal open for navigation (17 November 1869)', new Date(1869, 10, 17), new Date(1869, 10, 17) ],
+			[ 'World history', 'Victoria reign (UK)', 'Reign of Queen Victoria of the United Kingdom (1837-1901)', new Date(1837, 5, 20), new Date(1901, 0, 22) ]
+			]);
+		chart.draw(dataTable);
+	}
+</script>
+</head>
+<body>
+<div class="navbar">
+<div class="navbartitle">佘有進</div>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="life.html">Life</a></li>
+	<li><a href="influence.html">Influence</a></li>
+	<li class="current"><a href="resources.html">Resources</a></li>
+	<li><a href="about.html">About</a></li>
+</ul>
+</div> 
+
+<div class="main">
+<label for="toggle">华语</label>
+<input type ="checkbox" id="toggle">
+
+<h1>Timeline</h1>
+<h1 class="zh">年表</h1>
+<p>This timeline shows the events in Seah Eu Chin's life compared with major events in Singapore and world history.</p>
+<p class="zh">这条年表让您对照佘有进的生活故事和新加坡与世界历史的重要事件。</p>
+<p>NB: The visualization uses the <a href="https://developers.google.com/chart/interactive/docs/gallery/timeline">Google Visualization API</a> and requires Javascript and an Internet connection. Mouseover to view details.</p>
+
+<hr>
+
+<p class="back">Back to <a href="resources.html">Resources</a></p>
+</div>
+
+<div id="timeline" 
+	 style="height: 500px;
+	 		margin-right: auto;
+	 		margin-left: auto;
+			margin-top: 20px;"></div>
+
+<div class="endmatter">
+<p>Original content and web presentation Copyright (c) 2007-2016 Brandon Seah</p>
+</div>
+</body>
+</html>
