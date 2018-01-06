@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Locations of property bought from Yeo Kim Swee's estate]]></name>
+    <description>Approximate locations based on modern-day street names.</description>
+    <Style id="icon-1899-E65100-labelson-nodesc">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name><![CDATA[Locations of property bought from Yeo Kim Swee's estate]]></name>
+      <Placemark>
+        <name>New Bridge Road</name>
+        <styleUrl>#icon-1899-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.8428044,1.2834121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Boat Quay</name>
+        <styleUrl>#icon-1899-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.8488648,1.2898239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Bridge Road</name>
+        <styleUrl>#icon-1899-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.84665,1.2845757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Upper Circular Road</name>
+        <styleUrl>#icon-1899-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.8481233,1.2888617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carpenter Street</name>
+        <styleUrl>#icon-1899-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.8476932,1.2882043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
