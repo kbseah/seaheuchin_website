@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kangchu settlements in Singapore and Johor</name>
+    <description><![CDATA[Former chukangs (harbours) and their adjacent rivers in Singapore, and Kangchu settlements in Johor. The Johor settlements are from the figure "Kangchu settlements in Johor, 1859" in Carl Trocki's "Prince of Pirates".]]></description>
+    <Style id="icon-1899-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-673AB7-labelson">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-673AB7-labelson-nodesc">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-880E4F-labelson">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-880E4F-labelson-nodesc">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>Chukang-related Place Names in Singapore</name>
+      <Placemark>
+        <name>Choa Chu Kang</name>
+        <description>Location of former Choa Chu Kang Village at the end of Old Choa Chu Kang Rd.. Currently location of National Shooting Centre.</description>
+        <styleUrl>#icon-1899-880E4F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.6832571,1.3730737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lim Chu Kang</name>
+        <styleUrl>#icon-1899-880E4F-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.7096286,1.4199877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nee Soon Village / Chan Chu Kang</name>
+        <description><![CDATA[Nee Soon Village, named after Lim Nee Soon, was formerly known as Chan Chu Kang. Yishun New Town derives its name from the pinyin version of "Nee Soon". Located at the junction of Mandai Rd and Upper Thomson Rd.]]></description>
+        <styleUrl>#icon-1899-880E4F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.8171316,1.4027839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yio Chu Kang</name>
+        <styleUrl>#icon-1899-880E4F-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.8420224,1.3890443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hougang</name>
+        <description><![CDATA[Not a harbour, but the name means "end of the river", i.e. Sungei Serangoon]]></description>
+        <styleUrl>#icon-1899-880E4F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.8862529,1.3612182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Former Rivers in Singapore</name>
+      <Placemark>
+        <name>Former Sungei Tengah</name>
+        <description>Now part of Kranji Reservoir, formerly feeding into Sungei Kranji</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.7208402,1.3881648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Seletar</name>
+        <description>Dam completed in 1985, first named as Sungei Seletar Reservoir, then Lower Seletar Reservoir.</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.8413144,1.4052508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Tengeh</name>
+        <description>Dam completed in the early 1980s. Now Tengeh Reservoir, part of the Western Water Catchment area.</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.6466503,1.3462592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Simpang Mak Wai</name>
+        <description>Now part of Kranji Reservoir, formerly feeding into Sungei Kranji</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.7087059,1.4124584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Peng Siang</name>
+        <description>Now part of Kranji Reservoir, formerly feeding into Sungei Kranji</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.7339401,1.3984293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Kangkar</name>
+        <description>Now part of Kranji Reservoir, formerly feeding into Sungei Kranji</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.7088347,1.4075675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Poyan</name>
+        <description>Dam completed in the early 1980s, now Poyan Reservoir, forming part of the Western Water Catchment area.</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.6677647,1.3773211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sungei Serangoon</name>
+        <description>Dam completed in 2011.</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.9132833,1.3853011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Kranji</name>
+        <description>Dam completed in 1975. </description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.7352276,1.417478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Choa Chu Kang</name>
+        <description>Now a small stream</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.6807358,1.3764202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Sungei Toh Pek Kong</name>
+        <description>Toh Pek Kong (大伯公, Dà Bógōng) is a deity worshipped in Chinese folk religion.</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.6807251,1.3818152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Kangchu Settlements in Johor</name>
+      <Placemark>
+        <name>Tanjong Surat</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            104.0496254,1.4647128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pengerang</name>
+        <description>Also known as Pengarang. Today accessible from Singapore by ferry from Changi Village.</description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            104.111166,1.3648792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johor Lama</name>
+        <description>Former capital of Johor Sultanate in 16th century</description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            104.0136623,1.5883509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kota Tinggi</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.9014816,1.7293974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tanjong Kupang</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.5926628,1.3489621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tanjong Kukub (Kukup)</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.4980774,1.2841771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pulau Kukub (Kukup)</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.4231472,1.3130088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pulau Pisang</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.2574081,1.4628251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasir Godung (Gudang)</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.8199425,1.4874504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sedili (Sedeli)</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            104.1112518,1.9280799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Batu Pahat</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            102.9286766,1.8546489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Senggarang</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.0517149,1.7500301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muar</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            102.5755692,2.0636101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Padang</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            102.6363051,1.9520666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Endau</name>
+        <styleUrl>#icon-1899-673AB7-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.6225411,2.652231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johor Bahru (Tanjong Puteri)</name>
+        <description>Founded by Temenggong Ibrahim and developed with the help of kangchu-system plantations and trade.</description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            103.7634659,1.4613665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
