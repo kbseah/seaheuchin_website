@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Streets named for Seah family members</name>
+    <description>Streets and roads in Singapore named after Seah Eu Chin and members of his family.</description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Street names</name>
+      <Placemark>
+        <name>Seah Street</name>
+        <description>Named for Seah Eu Chin and his sons.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.8549305,1.2958038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eu Chin Street</name>
+        <description><![CDATA[Named after Seah Eu Chin. Part of Singapore's first public housing built in Tiong Bahru by the Singapore Improvement Trust (SIT) in the 1920s. Streets in the estate were named after prominent businessmen and philanthropists.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.8318579,1.2835517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seng Poh Road</name>
+        <description>Named after Tan Seng Poh, the brother-in-law of Seah Eu Chin. Part of the Tiong Bahru SIT housing estate.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.8328115,1.284776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seng Poh Lane</name>
+        <description>Another road named after Tan Seng Poh, in the Tiong Bahru SIT estate.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.833109,1.2839857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Liang Seah Street</name>
+        <description>Named for Seah Liang Seah, the second son of Seah Eu Chin. The street name was granted in 1927 to honour his service on the Legislative Council and other committees, despite a complaint from Syed Abdul Rahman bin Shaikh, who argued that the street should be named after him as he owned the most property along that street.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.8564008,1.2980566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peck Seah Street</name>
+        <description>Named after Seah Peck Seah, youngest son of Seah Eu Chin.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.8448293,1.2772704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
