@@ -37,9 +37,19 @@
 <iframe src="https://www.google.com/maps/d/embed?mid=1FlEUJQHAlr0D1uoJCKuwmhXXyzFyw4_-" width="100%" height="480"></iframe>
 <p>Street names in Singapore have many different origins, reflecting the history of how the city and its landscape have developed. Several streets (see map; download: <a href="Seah_street_names.kml">kml</a>/<a href="Seah_street_names.kmz">kmz</a>) have been named after members of Seah Eu Chin's family.</p>
 <figure class="float_right">
-	<img src="Seah_Street_Oct_06.JPG" width=200px>
-	<img src="Seah_Street.JPG" width=200px>
-	<figcaption>Two views of Seah Street. Sources: Above - By User:Sengkang (Own work) [<a href="//commons.wikimedia.org/wiki/File:Seah_Street,_Oct_06.JPG">Copyrighted free use</a>], <a href="https://commons.wikimedia.org/wiki/File%3ASeah_Street%2C_Oct_06.JPG">via Wikimedia Commons</a>, below - By Terence Ong (Own work) [<a href="http://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>], <a href="https://commons.wikimedia.org/wiki/File%3ASeah_Street.JPG">via Wikimedia Commons</a></figcaption>
+	<img class="modal-img" id="img1" src="Seah_Street_Oct_06.JPG" width=200px>
+	<div id="modal1" class="modal"> <!-- Modal image pops up on click -->
+		<span class="close" id="close1">&times;</span> <!-- Close button -->
+		<img class="modal-content" id="modal1img"> <!-- Enlarged image -->
+		<div class="modal-caption" id="modal1caption"></div> <!-- Caption -->
+	</div>
+	<img class="modal-img" id="img2" src="Seah_Street.JPG" width=200px>
+	<div id="modal2" class="modal"> <!-- Modal image pops up on click -->
+		<span class="close" id="close2">&times;</span> <!-- Close button -->
+		<img class="modal-content" id="modal2img"> <!-- Enlarged image -->
+		<div class="modal-caption" id="modal2caption"></div> <!-- Caption -->
+	</div>
+	<figcaption id="img1caption">Two views of Seah Street. Sources: Above - By User:Sengkang (Own work) [<a href="//commons.wikimedia.org/wiki/File:Seah_Street,_Oct_06.JPG">Copyrighted free use</a>], <a href="https://commons.wikimedia.org/wiki/File%3ASeah_Street%2C_Oct_06.JPG">via Wikimedia Commons</a>, below - By Terence Ong (Own work) [<a href="http://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>], <a href="https://commons.wikimedia.org/wiki/File%3ASeah_Street.JPG">via Wikimedia Commons</a></figcaption>
 </figure>
 <p><b>Seah Street</b> in Bras Basah (pictured) runs beside the Raffles Hotel. A cluster of streets – <b>Eu Chin Street</b>, <b>Seng Poh Road</b>, <b>Seng Poh Lane</b> – are named for Seah Eu Chin and his brother-in-law Tan Seng Poh (see <a href="life_04_02.html"><i>Revenue farming and later years</i></a>); they are part of the Tiong Bahru housing estate built by the Singapore Improvement Trust in the 1920s, where streets were named after prominent businessmen and philanthropists. <b>Liang Seah Street</b> and <b>Peck Seah Street</b> were respectively named after the second and youngest sons of Seah Eu Chin, who were also active in business and civic life in their own right. </p>
 </div>
@@ -56,5 +66,38 @@
 <p>Original content and web presentation Copyright (c) 2007-2016 Brandon Seah</p>
 </div>
 </body>
+
+<!-- Script for modal images, place at bottom of page -->
+<!-- Adapted from https://www.w3schools.com/howto/howto_css_modal_images.asp -->
+<script>
+var modal1 = document.getElementById('modal1');
+var img1 = document.getElementById("img1");
+var modalImg1 = document.getElementById('modal1img');
+var captionContent = document.getElementById('img1caption');
+var captionText1 = document.getElementById('modal1caption');
+img1.onclick = function() {
+	modal1.style.display = "block";
+	modalImg1.src = this.src;
+	captionText1.innerHTML = captionContent.innerHTML;
+}
+var span1 = document.getElementById('close1');
+span1.onclick = function() {
+	modal1.style.display = "none";
+}
+
+var modal2 = document.getElementById('modal2');
+var img2 = document.getElementById("img2");
+var modalImg2 = document.getElementById('modal2img');
+var captionText2 = document.getElementById('modal2caption');
+img2.onclick = function() {
+	modal2.style.display = "block";
+	modalImg2.src = this.src;
+	captionText2.innerHTML = captionContent.innerHTML;
+}
+var span2 = document.getElementById('close2');
+span2.onclick = function() {
+	modal2.style.display = "none";
+}
+</script>
 
 </html>

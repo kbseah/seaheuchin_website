@@ -64,8 +64,13 @@
 <p>What is important for our story is how the plantations were financed. The kangchu assigned land to new planters in his kang, and gave him provisions on credit, the debt being paid off after the first crop was harvested and sold. After this, further debt was transferred to the town traders, people like Eu Chin, who financed the kangchus, and they would act as sole agents for the planter’s produce until all the debt was serviced. It was an exchange of provisions like food and supplies for the agricultural produce, and the prices were later regulated by the town traders’ guild (founded in 1867), known as the Gambier and Pepper Society and also called the Kongkek. <span class="footnote">63<span class="footnotetext">  Song, One Hundred Years’ History, 37.</span></span> The prices they paid were about 30% below the actual market value, but the planters themselves were not completely helpless, for they had their own guild to look after their interests. <span class="footnote">64<span class="footnotetext">  Tan Teck Soon, “Chinese Local Trade,” 90.</span></span> The big Singapore merchants were all financiers and agents, and none of them were directly involved in the day-to-day business of the trade by this point in its development, as documented by the Surat Sungei, which were the title deeds issued by the Johore government for the kangchus. <span class="footnote">65<span class="footnotetext">  Carl A. Trocki, “The Johor Archives and the Kangchu System 1844-1910: a Bibliographic Essay,” Journal of the Malaysian Branch of the Royal Asiatic Society 48, no. 1 (1975): 1-47.</span></span>
 
 <figure class="full">
-<img src="Tan_Hiok_Nee.jpg" width=256px>
-<figcaption>Tan Hiok Nee, leader of the Ngee Heng Kongsi, and Major China of Johor (1870-1875). Image source: [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3ATan_Hiok_Nee.jpg">via Wikimedia Commons</a></figcaption>
+<img class="modal-img" id="img1" src="Tan_Hiok_Nee.jpg" width=256px>
+<div id="modal1" class="modal"> <!-- Modal image pops up on click -->
+	<span class="close">&times;</span> <!-- Close button -->
+	<img class="modal-content" id="modal1img"> <!-- Enlarged image -->
+	<div class="modal-caption" id="modal1caption"></div> <!-- Caption -->
+</div>
+<figcaption id="img1caption">Tan Hiok Nee, leader of the Ngee Heng Kongsi, and Major China of Johor (1870-1875). Image source: [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3ATan_Hiok_Nee.jpg">via Wikimedia Commons</a></figcaption>
 </figure>
 
 <p>While the Kongkek was only officially founded in 1867, pepper and gambier merchants (and other merchants too) were already combining to protect their interests many years before. Evidence for this is found in a letter in 1847 from “Gambier, Pepper, and Co.” to the Singapore Free Press, urging the Chamber of Commerce to petition the domestic British authorities to lower the import duty of black pepper into Britain. <span class="footnote">66<span class="footnotetext">  Singapore Free Press, 18 Nov 1847, and SSR R10, 13 Dec 1847, National Archives of Singapore.</span></span> In that year, prices for gambier and pepper were on their way to hitting their lowest values since the late 1830s. <span class="footnote">67<span class="footnotetext">  see fig. 2 from Wong, “Review Article”, reproduced from Low, “Gambier-and-Pepper”. </span></span> The internal evidence of the letter suggests that it was written by European merchants trading in pepper and gambier, <span class="footnote">68<span class="footnotetext">  Low, “Gambier-and-Pepper,” 30.</span></span> whereas the Kongkek was exclusively Chinese, dominated by town merchants from both Singapore and Johore. Nonetheless, it shows that the merchants of the time knew that banding together would give them a greater degree of influence than if they had worked alone.
@@ -85,5 +90,24 @@
 <p>Original content and web presentation Copyright (c) 2007-2016 Brandon Seah</p>
 </div>
 </body>
+
+<!-- Script for modal images, place at bottom of page -->
+<!-- Adapted from https://www.w3schools.com/howto/howto_css_modal_images.asp -->
+<script>
+var modal = document.getElementById('modal1');
+var img = document.getElementById("img1");
+var modalImg = document.getElementById('modal1img');
+var captionContent = document.getElementById('img1caption');
+var captionText = document.getElementById('modal1caption');
+img.onclick = function() {
+	modal.style.display = "block";
+	modalImg.src = this.src;
+	captionText.innerHTML = captionContent.innerHTML;
+}
+var span = document.getElementsByClassName('close')[0];
+span.onclick = function() {
+	modal.style.display = "none";
+}
+</script>
 
 </html>
