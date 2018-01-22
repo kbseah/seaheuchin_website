@@ -29,9 +29,15 @@
 <p class="back"><a href="#intro">Overview</a> | <a href="#contents">Contents</a> | <a href="#howto">How to use this website</a> | <a href="#whatsnew">What's new?</a></p>
 
 <figure class="full">
-<img src="SEC_320x462.jpg" width=320px>
-<figcaption>Portrait of Seah Eu Chin</figcaption>
-<figcaption>The original is a silver albumen print, in the collection of the National Museum, Singapore.</figcaption>
+<img class="modal-img" id="img1" src="Seah_portrait_NMS_crop.jpg" width=320px>
+<div id="modal1" class="modal"> <!-- Modal image pops up on click -->
+	<span class="close">&times;</span> <!-- Close button -->
+	<img class="modal-content" id="modal1img"> <!-- Enlarged image -->
+	<div class="modal-caption" id="modal1caption"></div> <!-- Caption -->
+</div>
+<figcaption>Portrait of Seah Eu Chin (silver albumen print)</figcaption>
+<!--<img src="SEC_320x462.jpg" width=320px>-->
+<figcaption>Courtesy of the National Museum of Singapore, National Heritage Board. (<a href="https://roots.sg/Roots/learn/collections/listing/1261991">Catalog listing</a>, <a href="SEC_320x462.jpg">alternative version</a>)</figcaption>
 </figure>
 
 <h3 id="intro">Introduction</h3>
@@ -80,6 +86,7 @@
 
 <h3 id="whatsnew">What's new?</h3>
 <ul>
+	<li>2018-01-22 - Update portrait on index page with color version</li>
 	<li>2018-01-09 - New virtual tour of grave site</li>
 	<li>2018-01-06 – New infoboxes and maps, fixed embedded maps</li>
 	<li>2016-12-04 – Added favicon</li>
@@ -96,5 +103,24 @@
 <p>Original content and web presentation Copyright (c) 2007-2016 Brandon Seah</p>
 </div>
 </body>
+
+<!-- Script for modal images, place at bottom of page -->
+<!-- Adapted from https://www.w3schools.com/howto/howto_css_modal_images.asp -->
+<script>
+var modal = document.getElementById('modal1');
+var img = document.getElementById("img1");
+var modalImg = document.getElementById('modal1img');
+var captionContent = document.getElementById('img1caption');
+var captionText = document.getElementById('modal1caption');
+img.onclick = function() {
+	modal.style.display = "block";
+	modalImg.src = this.src;
+	captionText.innerHTML = captionContent.innerHTML;
+}
+var span = document.getElementsByClassName('close')[0];
+span.onclick = function() {
+	modal.style.display = "none";
+}
+</script>
 
 </html>
