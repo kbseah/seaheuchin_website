@@ -16,7 +16,8 @@ body {
 
 p {
 	font-family: Georgia,Times,serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
-	font-size: 1.2em;
+	font-size: 20px;
+	line-height: 1.3;
 }
 
 .comment {
@@ -91,28 +92,28 @@ a.resource:hover {
 
 h1 {
 	color: navy;
-	font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+	font-family: Georgia,Times,serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
 	font-size: 2.8em;
 	text-align: center;
 }
 
 h2 {
 	color: navy;
-	font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+	font-family: Georgia,Times,serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
 	font-size: 1.8em;
 	text-align: center;
 }
 
 h3 {
 	color:navy;
-	font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+	font-family: Georgia,Times,serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
 	font-size: 1.4em;
 	text-align: center;
 }
 
 h4 {
 	color:black;
-	font-family: Georgia,Times, serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
+	font-family: Georgia,Times,serif,STKaiti,华文楷体,KaiTi,楷体,"AR PL UMing CN";
 	font-style:italic;
 	font-size:1.2em;
 	text-align: left;
@@ -121,10 +122,12 @@ h4 {
 blockquote {
 	display: block;
 	font-style: italic;
+	line-height: 1.3;
 }
 
 ul {
-	font-size:1.2em;
+	font-size: 20px;
+	line-height: 1.3;
 	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
 }
 
@@ -133,7 +136,8 @@ ul ul {
 }
 
 ol {
-	font-size:1.2em;
+	font-size: 20px;
+	line-height: 1.3;
 	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
 }
 
@@ -155,10 +159,10 @@ figure.full img {
 
 figure.full figcaption {
 	color: grey;
-	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
+	font-family: Georgia, Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
 	font-style:italic;
 	text-align:center;
-	font-size:1em;
+	font-size:18px;
 	padding:5px;
 }
 
@@ -181,7 +185,8 @@ figure.float_right figcaption {
 	font-family: Georgia,Times, serif,STFangSong,华文仿宋,"AR PL UMing CN",FangSong,仿宋;
 	font-style:italic;
 	text-align:center;
-	font-size:0.9em;
+	font-size:16px;
+	line-height:1.3;
 	padding:5px;
 }
 
@@ -480,6 +485,6 @@ div.endmatter p {
 /* Bibliography */
 
 ul.biblio {
-	font-size:1em;
+	font-size:18px;
 	font-family:serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
 }
