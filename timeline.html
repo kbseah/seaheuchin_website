@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8"> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <link rel="stylesheet" type="text/css" href="seaheuchin_stylesheet.css">
 <link rel="icon" type="image/png" href="seah_ico_16x16.png">
@@ -13,7 +14,7 @@
 		var container = document.getElementById('timeline');
 		var chart = new google.visualization.Timeline(container);
 		var dataTable = new google.visualization.DataTable();
-		
+
 		dataTable.addColumn({ type: 'string', id: 'Timeline' });
 		dataTable.addColumn({ type: 'string', id: 'Bar label' });
 		dataTable.addColumn({ type: 'string', role: 'tooltip' });
@@ -71,7 +72,7 @@
 	<li class="current"><a href="resources.html">Resources</a></li>
 	<li><a href="about.html">About</a></li>
 </ul>
-</div> 
+</div>
 
 <div class="main">
 <label for="toggle">华语</label>
@@ -88,7 +89,7 @@
 <p class="back">Back to <a href="resources.html">Resources</a></p>
 </div>
 
-<div id="timeline" 
+<div id="timeline"
 	 style="height: 500px;
 	 		margin-right: auto;
 	 		margin-left: auto;
