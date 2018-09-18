@@ -406,6 +406,9 @@ div.box p {
 	display: none;
 	/* by default hidden */
 }
+p.zh {
+	font-size: 150%;
+}
 
 .boxheadzh {
 	display: none;
