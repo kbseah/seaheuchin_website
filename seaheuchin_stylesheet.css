@@ -585,4 +585,6 @@ div.endmatter p {
 ul.biblio {
 	font-size:18px;
 	font-family:serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
+	list-style-type: none;
+	text-indent: -1em hanging;
 }
