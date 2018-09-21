@@ -34,9 +34,17 @@ p {
 	color:grey;
 }
 
+.pinyin {
+	/* Pinyin pronunciations inline*/
+	color: grey;
+	font-size: 0.8em;
+}
+
 ul.famtree {
 	/*List style for family tree*/
 	list-style-type:none;
+	margin-left: 0;
+	padding-left: 1em;
 }
 
 .ftm {
@@ -498,10 +506,7 @@ div.box p {
 p.zh {
 	font-size: 150%;
 }
-li.zh {
-	font-size: 150%;
-}
-li.zh {
+ul.zh {
 	font-size: 150%;
 }
 
