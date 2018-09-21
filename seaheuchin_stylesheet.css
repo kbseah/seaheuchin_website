@@ -592,4 +592,17 @@ ul.biblio {
 	font-family:serif,STFangSong,华文仿宋,"AR PL SungtiL GB","文鼎 PL 簡報宋",FangSong,仿宋;
 	list-style-type: none;
 	text-indent: -1em hanging;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.biblio li {
+	padding-left: 2em;
+}
+
+ul.biblio li[data-access|="fulltext"] {
+	background-image: url("document_icon.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 0.75em;
 }
