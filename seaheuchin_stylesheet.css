@@ -158,6 +158,14 @@ ul.indent {
 	text-indent: -1em hanging;
 }
 
+ul.indentzh {
+	list-style-type:none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em hanging;
+	font-size:150%;
+}
+
 ol {
 	font-size: 20px;
 	line-height: 1.3;
@@ -529,7 +537,16 @@ ul.zh {
 	/* by default hidden */
 }
 
+.indentzh {
+	display: none;
+}
+
 :checked ~ 	.zh {
+	display: block;
+	/* display .zh class when checkbox clicked */
+}
+
+:checked ~ 	ul.indentzh {
 	display: block;
 	/* display .zh class when checkbox clicked */
 }
