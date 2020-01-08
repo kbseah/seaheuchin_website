@@ -561,6 +561,11 @@ ul.zh {
 	/* display .zh class when checkbox clicked */
 }
 
+:checked ~ 	figure.full figcaption.zh {
+	display: block;
+	/* display .zh class when checkbox clicked */
+}
+
 .hide {
 	display: none;
 	/* on pageload hidden */
